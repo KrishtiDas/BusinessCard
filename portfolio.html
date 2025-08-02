@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krishti's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 8px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #1e90ff;
+      margin-bottom: 15px;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+      color: #333;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Krishti Das</h1>
+    <p>Software Developer | AI & Web Enthusiast</p>
+  </header>
+
+  <div class="container">
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Krishti, a passionate software developer with interests in AI, machine learning, and full-stack web development.
+        I love building projects that solve real-world problems and learning new technologies to grow as a developer.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      
+      <div class="project-card">
+        <h3>Readify</h3>
+        <p>A Flask-based app that converts PDFs to readable text with beautiful UI.</p>
+        <a href="https://github.com/your-username/readify" target="_blank">GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Sign Language Translator</h3>
+        <p>Converts ASL gestures to Hindi Sign Language using ML models and translation.</p>
+        <a href="https://github.com/your-username/signlang-translator" target="_blank">GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Diabetes Predictor</h3>
+        <p>An advanced ML app that predicts diabetes with Gradient Boosting and explainable AI.</p>
+        <a href="https://github.com/your-username/diabetes-predictor" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:krishti@example.com">krishti@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Krishti Das | Made with ❤️
+  </footer>
+
+</body>
+</html>
