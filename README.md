@@ -40,9 +40,13 @@ git clone https://github.com/KrishtiDas/business-card.git
 Open index.html in your browser.
 
 For github updation:
+
 git commit -m "Updated" 
+
 git branch -M main
+
 git remote add origin "https://github.com/KrishtiDas/BusinessCard.git"
+
 git push -u origin main
 
 Click on contact links (LinkedIn, GitHub, Portfolio, Email, Phone) to interact.
