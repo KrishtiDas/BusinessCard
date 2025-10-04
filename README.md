@@ -26,13 +26,13 @@ CSS Animations – Floating bubble effect and hover transitions.
 
 📁 Project Structure
 business-card/
-├─ assets
+├─ assets/
 |
-├─ index.html       # Main HTML page
+├─ index.html       # Main HTML page /
 |
-├─ style.css        # Styling & animations
+├─ style.css        # Styling & animations /
 |
-└─ README.md        # Project documentation
+└─ README.md        # Project documentation /
 
 🚀 Installation / Usage
 
