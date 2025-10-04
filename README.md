@@ -27,8 +27,11 @@ CSS Animations – Floating bubble effect and hover transitions.
 📁 Project Structure
 business-card/
 ├─ assets
+|
 ├─ index.html       # Main HTML page
+|
 ├─ style.css        # Styling & animations
+|
 └─ README.md        # Project documentation
 
 🚀 Installation / Usage
@@ -53,7 +56,7 @@ Click on contact links (LinkedIn, GitHub, Portfolio, Email, Phone) to interact.
 
 🎨 Customization
 
-Profile Picture: Replace assets/Krishti_Das_pink_shirt_photo.png with your own.
+Profile Picture: Replace "assets" with your own.
 
 Contact Info: Update email, phone number, location, and links in HTML.
 
