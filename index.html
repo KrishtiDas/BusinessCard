@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Business Card</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f0f0f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .card {
-      background-color: #fff;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-      width: 300px;
-      text-align: center;
-    }
-
-    .profile-img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
-    }
-
-    h2 {
-      margin: 10px 0 5px;
-      font-size: 24px;
-      color: #333;
-    }
-
-    p.title {
-      margin: 0;
-      font-size: 16px;
-      color: #777;
-    }
-
-    .contact {
-      margin-top: 20px;
-      font-size: 14px;
-      color: #444;
-    }
-
-    .contact a {
-      color: #1a73e8;
-      text-decoration: none;
-    }
-
-    .contact a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <title>BusinessCard</title>
+  <!-- Font Awesome CDN (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <img src="img.jpg" alt="Profile" class="profile-img">
+  <!-- Bubble Layer -->
+  <div class="bubbles" aria-hidden="true">
+    <span></span> <!--1-->
+    <span></span> <!--2-->
+    <span></span> <!--3-->
+    <span></span> <!--4-->
+    <span></span> <!--5-->
+    <span></span> <!--6-->
+    <span></span> <!--7-->
+    <span></span> <!--8-->
+    <span></span> <!--9-->
+    <span></span> <!--10-->
+    <span></span> <!--11-->
+    <span></span> <!--12-->
+    <span></span> <!--13-->
+    <span></span> <!--14-->
+    <span></span> <!--15-->
+  </div>
+
+  <!-- Card Section -->
+  <div class="card" role="region" aria-label="Business card for Krishti Das">
+    <img src="assets/Krishti_Das_pink_shirt_photo.png" alt="Krishti Das" class="profile-img" />
     <h2>Krishti Das</h2>
     <p class="title">Software Developer</p>
     <div class="contact">
-      📧 <a href="mailto:xxxx">xxxxxxxxx@gmail.com</a><br>
-      📞 +91-XXXXXXXXX<br>
-      🌐 <a href="portfolio.html" target="_blank">Portfolio</a>
+  <!-- LinkedIn -->
+    <div class="contact-row">
+      <i class="fa-brands fa-linkedin icon" aria-hidden="true"></i>
+      <a href="https://www.linkedin.com/in/krishti-das-666696283/" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
+    </div>
+  <!-- GitHub -->
+    <div class="contact-row">
+      <i class="fa-brands fa-github icon" aria-hidden="true"></i>
+      <a href="https://github.com/KrishtiDas" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+    </div>
+  <!-- Portfolio -->
+    <div class="contact-row">
+      <i class="fa-solid fa-user-tie icon" aria-hidden="true"></i>
+      <a href="https://krishti-das-portfolio-website.vercel.app/" target="_blank" rel="noopener" class="contact-link">Portfolio</a>
+    </div>
+  <!-- Email -->
+    <div class="contact-row">
+      <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
+      <a href="mailto:xxxxxxxxx@gmail.com" class="contact-link">Mail Id</a>
+    </div>
+  <!-- Phone -->
+    <div class="contact-row">
+      <i class="fa-solid fa-mobile-screen-button icon" aria-hidden="true"></i>
+      <span class="contact-text">+91-XXXXXXXXXX</span>
+    </div>
+  <!-- Location -->
+    <div class="contact-row">
+      <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
+      <span class="contact-text">Kolkata, India</span>
     </div>
   </div>
+
+</div>
 </body>
 </html>
